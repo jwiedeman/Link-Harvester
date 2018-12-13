@@ -1,0 +1,22 @@
+{
+  "name": "spider-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
+    "cherio": "^1.0.0-rc.2",
+    "nodemon": "^1.18.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+ "prod": "node --max-old-space-size=4096./node_modules/@angular/cli/bin/ng build --prod"
+  },
+
+  "author": "Andrew Merison",
+  "license": "ISC",
+
+}
