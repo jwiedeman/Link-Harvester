@@ -13,10 +13,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
- "prod": "node --max-old-space-size=4096./node_modules/@angular/cli/bin/ng build --prod"
+    "prod": "node --max-old-space-size=4096./node_modules/@angular/cli/bin/ng build --prod"
   },
-
   "author": "Andrew Merison",
-  "license": "ISC",
-
+  "license": "ISC"
 }
